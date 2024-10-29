@@ -3,7 +3,7 @@
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font: bolder;
+    font: bold;
 }
 
 .menu-item-container {
@@ -15,7 +15,7 @@
 }
 
 .menu-item-container:hover {
-    color: black
+    color: rgb(0, 138, 34)
 }
 
 .menu-subitem-container { 
@@ -28,6 +28,8 @@
     left: 100px;
     top: 10px;
     width: 150px;
+    color: black;
+
 }
 
 .menu-item-container:hover .menu-subitem-container {
