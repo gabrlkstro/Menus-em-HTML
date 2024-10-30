@@ -7,7 +7,6 @@
     width: 160px;
     margin-left: -50px;
     margin-top: -480px;
-
 }
 
 .menu-item-container {
@@ -17,14 +16,13 @@
     position: relative;
     width: 150px;
     cursor: pointer;
-    
 }
 
 .menu-item-container:hover {
-    color: rgb(0, 138, 34)
+    color: rgb(0, 138, 34);
 }
 
-.menu-subitem-container { 
+.menu-subitem-container {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -39,16 +37,36 @@
     cursor: pointer;
 }
 
+/* Exibir menu-subitem-container ao passar o mouse sobre o item pai */
 .menu-item-container:hover .menu-subitem-container {
     display: block;
 }
 
-.menu-subitem-container div{
+/* Estilos para itens dentro do menu-subitem-container */
+.menu-subitem-container div {
     padding: 10px;
 }
 
 .menu-subitem-container div:hover {
     background-color: #9a9;
+}
+
+/* Submenu dentro do item "Técnicos" */
+.menu-subsub-item-container {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #ffffff;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px rgb(136, 136, 136);
+    width: 200px;
+}
+
+/* Exibir o submenu dentro de "Técnicos" ao passar o mouse */
+.menu-subitem-container > div:hover > .menu-subsub-item-container {
+    display: block;
 }
 
 .processos {
