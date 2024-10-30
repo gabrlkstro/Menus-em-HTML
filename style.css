@@ -6,7 +6,7 @@
     border-right: solid 1px rgb(129, 129, 129);
     width: 160px;
     margin-left: -50px;
-    margin-top: -480px;
+    margin-top: -600px;
 }
 
 .menu-item-container {
@@ -37,12 +37,11 @@
     cursor: pointer;
 }
 
-/* Exibir menu-subitem-container ao passar o mouse sobre o item pai */
 .menu-item-container:hover .menu-subitem-container {
     display: block;
 }
 
-/* Estilos para itens dentro do menu-subitem-container */
+
 .menu-subitem-container div {
     padding: 10px;
 }
@@ -51,7 +50,6 @@
     background-color: #9a9;
 }
 
-/* Submenu dentro do item "Técnicos" */
 .menu-subsub-item-container {
     display: none;
     position: absolute;
@@ -64,7 +62,7 @@
     width: 200px;
 }
 
-/* Exibir o submenu dentro de "Técnicos" ao passar o mouse */
+
 .menu-subitem-container > div:hover > .menu-subsub-item-container {
     display: block;
 }
@@ -84,6 +82,21 @@
 .img {
     margin-left: 200px;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 150px;
     cursor: pointer;
 }
+
+.card {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .card img {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  .card:hover img {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  
