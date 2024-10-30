@@ -3,7 +3,8 @@
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font: bold;
+    border-right: solid 1px rgb(129, 129, 129);
+    width: 160px;
 }
 
 .menu-item-container {
@@ -11,7 +12,7 @@
     margin: 50px;
     font: bold;
     position: relative;
-    width: 0px;
+    width: 150px;
 }
 
 .menu-item-container:hover {
@@ -23,11 +24,12 @@
     position: absolute;
     background-color: #ffffff;
     border: 1px solid #bebebe;
+    border-radius: 4px;
     box-shadow: 1px 1px 6px rgb(136, 136, 136);
     border-style: outset;
-    left: 100px;
+    margin-left: 120px;
     top: 10px;
-    width: 150px;
+    width: 200px;
     color: black;
 
 }
