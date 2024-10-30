@@ -6,14 +6,16 @@
     border-right: solid 1px rgb(129, 129, 129);
     width: 160px;
     margin-left: -50px;
+
 }
 
 .menu-item-container {
-    padding: 10px;
+    padding-bottom: 2px;
     margin: 50px;
     font: bold;
     position: relative;
     width: 150px;
+    
 }
 
 .menu-item-container:hover {
@@ -28,8 +30,8 @@
     border-radius: 4px;
     box-shadow: 1px 1px 6px rgb(136, 136, 136);
     border-style: outset;
-    margin-left: 120px;
-    top: 10px;
+    margin-left: 130px;
+    top: 1px;
     width: 200px;
     color: black;
     transition: all;
@@ -58,4 +60,10 @@
 
 .acesso {
     width: 136px;
+}
+
+.img {
+    margin-left: 200px;
+    display: inline-block;
+    position: static;
 }
