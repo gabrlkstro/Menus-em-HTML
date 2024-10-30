@@ -5,6 +5,7 @@
     font-size: 15px;
     border-right: solid 1px rgb(129, 129, 129);
     width: 160px;
+    margin-left: -50px;
 }
 
 .menu-item-container {
@@ -31,6 +32,7 @@
     top: 10px;
     width: 200px;
     color: black;
+    transition: all;
 
 }
 
